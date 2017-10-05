@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: 'News Cycle', sans-serif;
+  color: #FAFAFA;
+}
+
+header {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background: #4A4A4A;
+  font-size: 20px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+header h1 {
+  font-family: 'Bevan', serif;
+  text-align: left;
+  padding: 20px;
+}
+.shopping-cart{
+  padding-right: 20px;
+}
+
+.product-menu{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  background: #5B5B5B;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.product-menu a {
+  padding-left: 200px;
+}
+
+.product-menu e {
+  padding-right: 200px;
+}
+
+.dog-banner {
+  width: 100%;
+  height: 500px;
+}
+
+.feature-title {
+  width: 100%;
+}
+h2 {
+  font-family: 'Bevan', serif;
+  text-align:center;
+  margin: 20px;
+  color: #4A4A4A;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.featured-pets {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-featured-pet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-featured-pet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-feature {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.right-feature {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+}
+
+.first-featured-pet a {
+  text-align: center;
+  color: #4A4A4A;
+  font-size: 36px;
+}
+
+.second-featured-pet a {
+  text-align: center;
+  color: #4A4A4A;
+  font-size: 36px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  background: #4A4A4A;
+  font-size: 20px;
+  text-transform: uppercase;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.footer-column-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px;
+}
+
+.footer-column-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.social-media img {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+}
