@@ -44,7 +44,8 @@ h1 a {
 }
 
 h1 a:visited {
-  color: #FAFAFA
+  color: #FAFAFA;
+  text-decoration: none;
 }
 
 .shopping-cart{
@@ -68,7 +69,8 @@ h1 a:visited {
 }
 
 .product-menu a:visited {
-  color: #FAFAFA
+  color: #FAFAFA;
+  text-decoration: none;
 }
 
 /* ad banner */
@@ -164,6 +166,11 @@ h2 {
   text-align: center;
   color: #4A4A4A;
   font-size: 20px;
+  text-decoration: none;
+}
+
+.product a:visited {
+  color: #4A4A4A;
   text-decoration: none;
 }
 
